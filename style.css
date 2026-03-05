@@ -24,16 +24,32 @@ footer {
 }
 
 main {
-    width: 1000px;
+    width: 1000px auto;
     margin: 20px auto;
     img {
         width: 100%;
         border-radius: 15px;
     }
+    section{
+        background-color: #ccc;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 15px;
+        padding: 15px;
+        margin: 15px 0;
+        h2{
+            text-align: center;
+        }
+    }
 }
-section {
-    background-color: #CCC;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: ;
 
+@media (min-width: 480px){
+    body{
+    background-color: #666;
+    }
+    main{
+        width: 1000px;
+    }
+    p {
+        font-size: 30px;
+    }
 }
